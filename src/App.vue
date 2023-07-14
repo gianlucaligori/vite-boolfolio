@@ -1,5 +1,12 @@
-<script setup>
-import ProjectList from './components/ProjectList.vue'
+<script >
+
+import ProjectList from './components/ProjectList.vue';
+
+export default {
+  components: {
+    ProjectList
+  },
+};
 
 </script>
 
