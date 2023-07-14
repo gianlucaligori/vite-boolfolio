@@ -1,6 +1,16 @@
 <script>
 
 
+export default {
+
+    data() {
+        return {
+            ArrProject: [],
+        }
+    },
+
+};
+
 
 </script>
 
