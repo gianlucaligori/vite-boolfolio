@@ -1,11 +1,8 @@
 <script setup>
-import ProjectList from './components/ProjectList.vue'
 
 </script>
 
-<template>
-  <ProjectList />
-</template>
+<template></template>
 
 <style lang="scss" scoped>
 @import 'bootstrap/scss/bootstrap';
