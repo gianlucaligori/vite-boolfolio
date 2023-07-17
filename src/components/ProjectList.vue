@@ -1,10 +1,12 @@
 <script>
 import axios from 'axios';
 import ProjectCard from "./ProjectCard.vue";
+import { store } from "../store";
 
 export default {
     components: {
-        ProjectCard
+        ProjectCard,
+        store,
     },
     data() {
         return {

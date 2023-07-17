@@ -1,12 +1,13 @@
 <script>
 
 import ProjectList from './components/ProjectList.vue';
+import AppNav from './components/AppNav.vue';
 
 
 export default {
   components: {
-
     ProjectList,
+    AppNav,
 
   },
 };
@@ -15,9 +16,11 @@ export default {
 </script>
 
 <template>
-  <h1 class="text-center mt-2">BoolPrees</h1>
-  <h2 class="text-center">Questi sono i miei progetti fatti con Boolean Anno 2023</h2>
-  <projectList />
+  <AppNav />
+  <router-view></router-view>
+  <!-- <h1 class="text-center mt-2">BoolPrees</h1>
+    <h2 class="text-center">Questi sono i miei progetti fatti con Boolean Anno 2023</h2> -->
+  <ProjectList />
 </template>
 
 <style lang="scss">
